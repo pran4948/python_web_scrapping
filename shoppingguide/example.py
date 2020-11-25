@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 
-str = input('Enter Product Name: ')
+str = input('Enter Product Name     : ')
 url = 'https://www.flipkart.com/search?q='
 str = str.replace(' ','+')
 url+=str
